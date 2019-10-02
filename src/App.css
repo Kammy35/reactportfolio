@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');
+
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("images/kammy1.jpg");
+  background-size: 100vw 130vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  position: absolute;
+}
+
+.nav {
+  /* background-color: white;  */
+  width: 100%;
+  margin: 0 0 2em 0;
+  
+  /* padding: 0; */
+  /* list-style: none;  */
+  
+}
+
+/* #hbutton {
+  font-size: 40px;
+}
+#abutton{
+  font-size: 40px;
+}
+#pbutton{
+  font-size: 40px;
+}
+#cbutton{
+  font-size: 40px;
+} */
+/* .nav li {
+  float: left; }
+
+
+.nav li a {
+  display: block;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px;
+  font-family: 'Hepta Slab', serif;
+  } */
+
+/* .shade {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 55vw;
+  height: 50vh;
+  background: rgba(5, 0, 10, 0.3);
+  animation-name: expand;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-play-state: running;
+}
+
+@keyframes expand{
+  0%{
+    width: 55%;
+  }
+  100%{
+    width: calc(100% - 40px) 100vw;
+  }
+} */
+
+/* #text {
+  color: azure;
+  font-family: Livvic;
+  font-size: 20px;
+} */
+
+.displaytext {
+  text-align: center;
+  font-size: 25px;
+  margin: 0 0 6em 0;
+  font-family: 'Permanent Marker', cursive;
+  color: azure;
+  padding-top: 100px;
+}
+
+.aboutMeText {
+  margin: 0;
+  font-size: 20px;
+  color: azure;
+  font-style: italic;
+
+}
+
+.projectsText {
+  margin: 0;
+  font-size: 50px;
+  color: azure;
+}
+
+.contacttext {
+  color: azure;
+  font-size: 20px;
+}
+
+.words{
+  margin: 0;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.wordsThree {
+  margin: 0;
+}
+
+
+.shade {
+  margin-left: 40px;
+  /* margin-right: 20px; */
+  height: 60vh;
+  background: rgba(5, 0, 10, 0.5);
+  transition: width .5s;
+  width: 55vw;
+  border-radius: 50%;
+
+  animation-name: slidein;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-play-state: running;
+  animation-direction: alternate;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+.shadeTwo {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  /* margin-right: 20px; */
+  /*margin-bottom: 20px; */
+  height: 90vh;
+  background: rgba(5, 0, 10, 0.5);
+  transition: width 1s;
+  width: 95vw;
+  border-radius: 5%;
+
+  animation-name: expand;
+  animation-duration: 0.5s;
+  animation-timing-function: initial;
+  animation-play-state: running;
+  animation-direction: normal;
+}
+
+
+/* @keyframes expand {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 20%;
+    width: 100%;
+  }
+} */
+
+@keyframes expand{
+  0%{
+    width: 10%;
+  }
+  100%{
+    width: calc(100% - 40px) 100vw;
+  }
+} 
+
+.shadeThree {
+  margin-left: 40px;
+  /* margin-right: 20px; */
+  /*margin-bottom: 20px; */
+  height: 90vh;
+  background: rgba(5, 0, 10, 0.5);
+  transition: width 1s;
+  width: 95vw;
+
+  animation-name: expand;
+  animation-duration: 0.5s;
+  animation-timing-function: initial;
+  animation-play-state: running;
+  animation-direction: normal;
+}
+
+@keyframes expand{
+  0%{
+    width: 10%;
+  }
+  100%{
+    width: calc(100% - 40px) 100vw;
+  }
+} 
+
+.shadeFour {
+  margin-left: 40px;
+  /* margin-right: 20px; */
+  height: 70vh;
+  background: rgba(5, 0, 10, 0.3);
+  transition: width .5s;
+  width: 50vw;
+
+  animation-name: slidein;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-play-state: running;
+  animation-direction: alternate;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
